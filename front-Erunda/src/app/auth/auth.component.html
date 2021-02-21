@@ -1,0 +1,6 @@
+<h1>Авторизация</h1>
+<form (submit)="authorizationClick()">
+  <input type="text" [(ngModel)]="login" name="login" placeholder="Введите логин" class="form-control"><br>
+  <input type="password" [(ngModel)]="password" name="password" placeholder="Введите пароль" class="form-control"><br>
+  <button class="btn btn-success" name="button" type="submit">Войти в кабинет</button>
+</form>
